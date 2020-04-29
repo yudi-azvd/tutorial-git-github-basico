@@ -3,9 +3,9 @@ Treinamento sobre comandos básicos de Git
 
 ## Conteúdo
 1. Breve história
-2. Quais problemas o Git resolve 
-3. Princípios básicos de funcionamento do Git
-3. Comandos Git
+1. Quais problemas o Git resolve 
+1. Princípios básicos de funcionamento do Git
+1. Comandos Git
     - `git init`
     - `git status`
     - `git add <nome-do-arquivo>`
@@ -21,9 +21,10 @@ Treinamento sobre comandos básicos de Git
     - `git log`
     - `git log --oneline --graph`
     - `git branch`
-4. Github
+1. Github
     - Criar um repositório remoto
     - Empurrar mudanças para o repositório remoto
-6. Arquivo `README.md`
-5. Arquivo `.gitignore`
-6. Exemplificar colaboração de time
+1. Arquivo `README.md`
+1. Arquivo `.gitignore`
+1. Exemplificar colaboração de time
+
