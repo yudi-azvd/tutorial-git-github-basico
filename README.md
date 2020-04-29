@@ -18,6 +18,8 @@ Treinamento de com comandos básicos de Git
   - `git remote add origin <url>`
     - Explicar que `origin` é o nome de uma variável, um alias pra URL
   - `git remote set-url origin <url>`
+  - `git log`
+  - `git log --oneline --graph`
 4. Github
 
   - Criar um repositório remoto
