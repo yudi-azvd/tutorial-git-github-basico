@@ -1,7 +1,18 @@
-# Treinamento Git Github básico
-Treinamento sobre comandos básicos de Git
+<h1 style="display: flex; align-items: center; justify-content: space-between;">
+  <img style="width: 32px; height: 32px;" src="./.github/git-logo.png">
+  Treinamento Git Github básico
+  <img style="width: 32px; height: 32px;" src="./.github/github-logo.png">
+</h1>
 
-## Conteúdo
+<!-- <h1 style="display: flex;">
+  <img src="./.github/git-logo.png">
+  Treinamento Git Github básico
+  <img src="./.github/github-logo.png">
+</h1> -->
+
+Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/git-github).
+
+## Índice
 1. Breve história
 1. Quais problemas o Git resolve 
 1. Princípios básicos de funcionamento do Git
