@@ -35,4 +35,5 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 1. Arquivo `README.md`
 1. Arquivo `.gitignore`
 1. Exemplificar colaboração de time
+1. [Referências](/referencias.md)
 
