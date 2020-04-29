@@ -7,7 +7,7 @@
   Treinamento Git Github básico
 </h1>
 
-Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/git-github).
+Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/1.md).
 
 ## Índice
 1. Breve história
@@ -35,5 +35,5 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 1. Arquivo `README.md`
 1. Arquivo `.gitignore`
 1. Exemplificar colaboração de time
-1. [Referências](/referencias.md)
+1. [Referências](/conteudo/referencias.md)
 
