@@ -1,7 +1,7 @@
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img style="margin-right: 16px;" src="./.github/git-logo.png">
   <img src="./.github/github-logo.png">
-</div>
+</p>
 
 <h1 align="center">
   Treinamento Git Github básico
