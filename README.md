@@ -24,5 +24,6 @@ Treinamento sobre comandos básicos de Git
 4. Github
     - Criar um repositório remoto
     - Empurrar mudanças para o repositório remoto
+6. Arquivo `README.md`
 5. Arquivo `.gitignore`
 6. Exemplificar colaboração de time
