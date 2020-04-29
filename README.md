@@ -1,9 +1,10 @@
 # Treinamento Git Github básico
-Treinamento de com comandos básicos de Git
+Treinamento sobre comandos básicos de Git
 
 ## Conteúdo
 1. Breve história
 2. Quais problemas o Git resolve 
+3. Princípios básicos de funcionamento do Git
 3. Comandos Git
 
   - `git init`
@@ -20,6 +21,7 @@ Treinamento de com comandos básicos de Git
   - `git remote set-url origin <url>`
   - `git log`
   - `git log --oneline --graph`
+  - `git branch`
 4. Github
 
   - Criar um repositório remoto
