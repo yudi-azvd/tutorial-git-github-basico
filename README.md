@@ -1,14 +1,11 @@
-<h1 style="display: flex; align-items: center; justify-content: space-between;">
-  <img style="width: 32px; height: 32px;" src="./.github/git-logo.png">
-  Treinamento Git Github básico
-  <img style="width: 32px; height: 32px;" src="./.github/github-logo.png">
-</h1>
-
-<!-- <h1 style="display: flex;">
-  <img src="./.github/git-logo.png">
-  Treinamento Git Github básico
+<div style="display: flex; justify-content: center;">
+  <img style="margin-right: 16px;" src="./.github/git-logo.png">
   <img src="./.github/github-logo.png">
-</h1> -->
+</div>
+
+<h1 style="display: flex; align-items: center; justify-content: center;">
+  Treinamento Git Github básico
+</h1>
 
 Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/git-github).
 
