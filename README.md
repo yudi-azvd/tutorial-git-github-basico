@@ -5,6 +5,7 @@ Treinamento de com comandos básicos de Git
 1. Breve história
 2. Quais problemas o Git resolve 
 3. Comandos Git
+
   - `git init`
   - `git status`
   - `git add <nome-do-arquivo>`
@@ -18,6 +19,7 @@ Treinamento de com comandos básicos de Git
     - Explicar que `origin` é o nome de uma variável, um alias pra URL
   - `git remote set-url origin <url>`
 4. Github
+
   - Criar um repositório remoto
   - Empurrar mudanças para o repositório remoto
 5. Exemplificar colaboração de time
