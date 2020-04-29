@@ -3,7 +3,7 @@
   <img src="./.github/github-logo.png">
 </div>
 
-<h1 style="text-align: center;">
+<h1 align="center">
   Treinamento Git Github básico
 </h1>
 
