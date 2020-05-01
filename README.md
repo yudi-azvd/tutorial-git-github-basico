@@ -15,23 +15,19 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 1.2 Download e instalação do Git
 1.3 Princípios básicos de funcionamento do Git
 1. Github
+1.1 O que é
+1.2 Criando uma conta
 1. Comandos Git
     - `git init`
     - `git status`
-    - `git add <nome-do-arquivo>`
-    - `git add -A`
-    - `git commit -m `
-    - `git push origin master`
-    - `git push -u`
-    - `git pull origin master`
-    - `git remote -v`
-    - `git remote add origin <url>`
-      - Explicar que `origin` é o nome de uma variável, um alias pra URL
-    - `git remote set-url origin <url>`
+    - `git add`
+    - `git commit`
+    - `git push`
+    - `git pull`
+    - `git remote`
     - `git log`
-    - `git log --oneline --graph`
     - `git branch`
-1. Github
+1. Upload para o Github
     - Criar um repositório remoto
     - Empurrar mudanças para o repositório remoto
 1. Arquivo `README.md`
