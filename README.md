@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  Treinamento Git Github básico
+  Tutorial Git Github básico
 </h1>
 
 Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/parte-1.md).
