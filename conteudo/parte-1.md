@@ -28,4 +28,4 @@ vamos focar no Github, por isso [crie uma conta](https://github.com/join).
 Dá uma olhada [aqui](/conteudo/referencias.md)
 
 ---
-[Próxima parte](/conteudo/parte-1.md)
+[Próxima parte](/conteudo/parte-2.md)
