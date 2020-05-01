@@ -10,9 +10,11 @@
 Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/1.md).
 
 ## Índice
-1. Breve história
-1. Quais problemas o Git resolve 
-1. Princípios básicos de funcionamento do Git
+1. Git
+1.1 O que é e breve história
+1.2 Download e instalação do Git
+1.3 Princípios básicos de funcionamento do Git
+1. Github
 1. Comandos Git
     - `git init`
     - `git status`
@@ -37,3 +39,4 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 1. Exemplificar colaboração de time
 1. [Referências](/conteudo/referencias.md)
 
+Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/1.md).
