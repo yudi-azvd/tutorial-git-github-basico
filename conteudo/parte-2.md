@@ -3,8 +3,10 @@
 ---
 
 # Comandos Git
+Para começar a explorar os comandos básicos do Git, crie um diretório no seu computador `tutorial-git-github`
 
 ## `git init`
+Inicia um repositório Git
 
 ## `git add`
 - `git add <nome-do-arquivo>`
