@@ -1,3 +1,7 @@
+[Parte anterior](/conteudo/parte-1.md) | [Próxima parte](/conteudo/parte-3.md)
+
+---
+
 # Comandos Git
 
 ## `git init`
@@ -36,4 +40,4 @@
 
 
 ---
-[Próxima parte](/conteudo/parte-3.md)
+[Parte anterior](/conteudo/parte-1.md) | [Próxima parte](/conteudo/parte-3.md)
