@@ -13,7 +13,7 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 1. Git
     1. O que é e breve história
     1. Download e instalação do Git
-    1. Princípios básicos de funcionamento do Git
+    <!-- 1. Princípios básicos de funcionamento do Git -->
 1. Github
     1. O que é
     1. Criando uma conta
