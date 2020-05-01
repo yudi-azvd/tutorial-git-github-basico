@@ -26,3 +26,6 @@ vamos focar no Github, por isso [crie uma conta](https://github.com/join).
 
 ## Referências
 Dá uma olhada [aqui](/conteudo/referencias.md)
+
+---
+[Próxima parte](/conteudo/parte-1.md)

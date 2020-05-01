@@ -33,3 +33,7 @@
 ## `git checkout`
 - `git checkout <nome-da-branch>`
 - `git checkout -b <nome-da-branch>`
+
+
+---
+[Próxima parte](/conteudo/parte-3.md)
