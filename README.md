@@ -11,14 +11,9 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 
 ## Índice
 1. Git
-    1 O que é e breve história
-1.2 Download e instalação do Git
-1.3 Princípios básicos de funcionamento do Git
-
-1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+    1. O que é e breve história
+    1. Download e instalação do Git
+    1. Princípios básicos de funcionamento do Git
 1. Github
 1.1 O que é
 1.2 Criando uma conta
