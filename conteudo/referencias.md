@@ -1,8 +1,12 @@
 # Referências
 Os tópicos são links, então você pode clicar neles.
 
-* [Git, Wikipedia](https://en.wikipedia.org/wiki/Git)
+* [Página ofcial do Git](https://git-scm.com/about);
 
-* [Como usar Git e Github na prática: guia para iniciantes, Mayk Brito](https://www.youtube.com/watch?v=2alg7MQ6_sI). Comandos básicos
+* [Git, Wikipedia](https://en.wikipedia.org/wiki/Git);
 
-* [Entendendo GIT | (não é um tutorial!)](https://www.youtube.com/watch?v=6Czd1Yetaac), Fábio Akita. História dos programas versionadores de arquivos até o Git.
+* [Como usar Git e Github na prática: guia para iniciantes, Mayk Brito](https://www.youtube.com/watch?v=2alg7MQ6_sI). Comandos básicos;
+
+* [Entendendo GIT | (não é um tutorial!)](https://www.youtube.com/watch?v=6Czd1Yetaac), Fábio Akita. História dos programas versionadores de arquivos até o Git e fundamentos de seu funcionamento;
+
+* [Tech Talk do próprio Linus Torvalds sobre Git na Google](https://www.youtube.com/watch?v=4XpnKHJAok8), explicando as vantagens de usar Git em relação a outras alternativas;
