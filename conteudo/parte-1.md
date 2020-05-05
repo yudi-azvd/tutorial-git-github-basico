@@ -7,10 +7,18 @@ Git não foi o primeiro. Antes dele vieram CVS, Mercurial, BitKeeper e outros, f
 
 Mais sobre história e fundamentos do Git nas [referências](/conteudo/referencias.md).
 
-<!-- ### Mas sério, pra que serve?
-Você provavelmente já escreveu algum texto num arquivo no computador, quer que fosse uma redação ou o trabalho de programação da faculdade. 
+<!-- 
+ -->
+### Mas sério, pra que serve?
+Você provavelmente já escreveu algum texto num arquivo no computador, quer fosse uma redação ou o trabalho de programação da faculdade. Então quando você termina pela primeira vez, você salva o arquivo como `trabalho.txt`. Alguns momentos depois você tem uma ideia nova e quer experimentar no seu texto, então você faz uma cópia do original com a sua ideia e o salva como `trabalho-2.txt`. Se você gosta de escrever e escreve bastante, isso pode acontecer mais algumas vezes e sua pasta pode acabar com 5 ou 10 arquivos do tipo `trabalho-3.txt`, `trabalho-3.1.txt`, `trabalho-4.txt` e etc. 
 
-Uma das maneiras básicas de usar o Git é criando "**commits**", que são pontos na história do repositório. Facilmente é possível voltar para qualquer um desses pontos e consultar como estavam os arquivos nessa "época". -->
+Você até pode achar que isso não é muito. Mas imagine se é um trabalho de Estrutura de Dados, ou seja deve exigir alguns arquivos pra organizar o código. Além disso você pode trabalhar com um colega. Como vocês vão se organizar pra trabalhar nas versões corretas do código?
+
+<!-- 
+Uma das maneiras básicas de usar o Git é criando "**commits**", que são pontos na história do repositório. Facilmente é possível voltar para qualquer um desses pontos e consultar como estavam os arquivos nessa "época". 
+
+facilmente descobrir os motivos dos commits (commit message)
+-->
 
 
 ### Download e instalação do Git
