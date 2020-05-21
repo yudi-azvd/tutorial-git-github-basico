@@ -27,10 +27,9 @@ Clique [aqui](https://git-scm.com/downloads) para baixar Git no seu computador. 
 
 ## Github
 [Github](https://github.com/) é uma plataforma online baseada em navegador que usa Git e permite programadores desenvolverem softwares em time e a compartilharem seus 
-projetos, além de outras funcionalidades mais poderosas. Github não é 
+projetos, além de outras funcionalidades mais poderosas sem a dor de cabeça de montar um servidor sozinho. Toda a infraestrutura é fornecida por ele de graça. Github não é 
 a única plataforma: existem também o [Gitlab](https://about.gitlab.com/), 
-[Bitbucket](https://bitbucket.org/product) e muitas outras. Nesse tutorial 
-vamos focar no Github, por isso [crie uma conta](https://github.com/join).
+[Bitbucket](https://bitbucket.org/product) e muitas outras. Este material é baseado no Github, por isso crie uma conta [aqui](https://github.com/join).
 
 
 ## Referências
