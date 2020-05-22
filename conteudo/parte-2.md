@@ -66,6 +66,25 @@ Se for executado apenas `git commit`, será aberto um editor de texto (Vim, Nano
 <img src="../.github/parte-2/lifecycle.png" width="600">
 
 
+## `git remote`
+Comandos relacionados ao repositório remoto (pode ser no Github, Gitlab, Bitbucket etc)
+
+### `git remote -v`
+Mostra uma lista de repositórios remotos e seus _aliases_ (apelidos). Você pode pensar em um _alias_ como uma variável que armazena uma string, que pode ser o endereço de um repositório remoto.
+
+### `git remote add`
+Adiciona o endereço de um repositório remoto que não foi adicionado. Quando estamos falando do repositório remoto hospedado por algum serviço como o próprio Github, é comum chamarmos esse endereço de `origin`.
+
+```sh
+# origin é o alias/apelido
+# o que vem depois é a URL/endereço do repositório remoto
+git remote add origin https://github.com/yudi-azvd/tutorial-git-github-basico.git
+```
+
+
+### `git remote set-url`
+
+
 ## `git push`
 - Explicar que `origin` é o nome de uma variável, um alias pra URL
 - `git push origin master`
@@ -73,11 +92,6 @@ Se for executado apenas `git commit`, será aberto um editor de texto (Vim, Nano
 
 ## `git pull`
 
-## `git remote`
-Comandos relacionados ao repositório remoto (pode ser no Github, Gitlab, Bitbucket etc)
-- `git remote -v`
-- `git remote add origin <url>`
-- `git remote set-url origin <url>`
 
 ## `git log`
 - `git log`
