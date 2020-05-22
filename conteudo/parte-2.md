@@ -6,8 +6,10 @@
 Para começar a explorar os comandos básicos do Git, crie um diretório no seu computador `tutorial-git-github`. Vamos abrir essa pasta no terminal. Certifique-se 
 de ter o Git instalado no seu computador.
 
-__Windows:__ abra a pasta no Explorador de Arquivos, e clique com o botão direito 
-em uma parte vazia da pasta. Dentre as opções, clique em "Abrir Git Bash aqui". Você deve ver uma janela de terminal se abrir no diretório `tutorial-git-github`.
+**Windows:** abra a pasta no Explorador de Arquivos, e clique com o botão direito 
+em uma parte vazia da pasta. Dentre as opções, clique em "Abrir Git Bash aqui". Você deve ver uma janela de terminal se abrir no diretório `tutorial-git-github`. Algo assim:
+
+<img src="../.github/parte-2/git-bash.png" width="600">
 
 
 ## `git init`
@@ -47,7 +49,6 @@ Se você deseja adicionar todas as alterções no próximo commit:
 
 ## Ciclo de vida
 <img src="../.github/parte-2/lifecycle.png" width="600">
-
 
 
 ## `git push`
