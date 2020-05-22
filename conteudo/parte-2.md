@@ -30,16 +30,23 @@ quais estão **unstaged** (não estão no stage),
 e quais estão **untracked** (não estão sendo rastreados).
 _Stage_ ("palco") é uma área em que alterações nos arquivos estão prontas para serem "commitadas", ou entrarem para a história do repositório.
 
+<img src="../.github/parte-2/git-status.png" width="600">
 
 Se um arquivo não está sendo rastreado, as alterações que ele sofre _não_ entram para a história do repositório e para ele não há controle de versão. Regra geral: um arquivo será rastreado se ele passar pelo `git add` individualmente ou em grupo.
 
+
+
 ## `git add`
-Adiciona arquivos e pastas no rastreio do Git.
+Adiciona arquivos e pastas no rastreio do Git. Os arquivos que passam por esse comando têm suas alterações "escutadas" pelo Git.
 
 `git add <nome-do-arquivo>` para adicionar as alterações no **staging area**.
-    exemplo: `git add index.html`
+```sh
+# exemplo:
+git add programa1.c             
+git add index.html programa2.c  # pode ser executado em vários comandos
+```
 
-Se você deseja adicionar todas as alterções no próximo commit:
+Se você deseja adicionar todas as alterações no próximo commit:
 `git add -A`
 
 ## `git commit -m`
