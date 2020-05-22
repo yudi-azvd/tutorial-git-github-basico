@@ -7,8 +7,6 @@ Git não foi o primeiro. Antes dele vieram CVS, Mercurial, BitKeeper e outros, f
 
 Mais sobre história e fundamentos do Git nas [referências](/conteudo/referencias.md).
 
-<!-- 
- -->
 ### Mas sério, pra que serve?
 Você provavelmente já escreveu algum texto num arquivo no computador, quer fosse uma redação ou o trabalho de programação da faculdade. Então quando você termina pela primeira vez, você salva o arquivo como `trabalho.txt`. Alguns momentos depois você tem uma ideia nova e quer experimentar no seu texto, então você faz uma cópia do original com a sua ideia e o salva como `trabalho-2.txt`. Se você gosta de escrever e escreve bastante, isso pode acontecer mais algumas vezes e sua pasta pode acabar com 5 ou 10 arquivos do tipo `trabalho-3.txt`, `trabalho-3.1.txt`, `trabalho-4.txt` e etc. 
 
