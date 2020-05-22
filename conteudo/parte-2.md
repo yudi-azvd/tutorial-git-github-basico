@@ -50,8 +50,16 @@ Se você deseja adicionar todas as alterações no próximo commit:
 `git add -A`
 
 ## `git commit -m`
-- `git commit`
-- `git commit -m`
+Cria um novo ponto na história do repositório com as alterações que estavam no **staging area**. Os arquivos que estavam no **staging area** estão agora **unmodified** (não modificados).
+
+Cada commit deve conter uma breve explicação das alterações que foram feitas. Essa explicação é chamada de **commit message**. No comando, é o `-m` que indica que o próximo argumento é mensagem (deve estar entre aspas `"mensagem"`).
+```sh
+# exemplo:
+# git add lista_lincada.c             
+git commit -m "adicionado função de ordenação para listas lincadas"
+```
+
+Se for executado apenas `git commit`, será aberto um editor de texto (Vim, Nano ou algum outro) no qual deve ser escrito a **commit message**.
 
 
 ## Ciclo de vida
