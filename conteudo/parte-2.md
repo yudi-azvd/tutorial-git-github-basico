@@ -35,7 +35,6 @@ _Stage_ ("palco") é uma área em que alterações nos arquivos estão prontas p
 Se um arquivo não está sendo rastreado, as alterações que ele sofre _não_ entram para a história do repositório e para ele não há controle de versão. Regra geral: um arquivo será rastreado se ele passar pelo `git add` individualmente ou em grupo.
 
 
-
 ## `git add`
 Adiciona arquivos e pastas no rastreio do Git. Os arquivos que passam por esse comando têm suas alterações "escutadas" pelo Git.
 
@@ -47,12 +46,14 @@ git add index.html programa2.c  # pode ser executado em vários comandos
 ```
 
 Se você deseja adicionar todas as alterações no próximo commit:
-`git add -A`
+`git add -A`.
+
+Note que o que está sendo adicionado não é apenas o arquivo, mas as aleterações feitas nele. Assim, o comando `git add` pode ser executado sobre o mesmo arquivo várias vezes porque o arquivo pode sofrer várias alterações ao longo do tempo.
 
 ## `git commit -m`
 Cria um novo ponto na história do repositório com as alterações que estavam no **staging area**. Os arquivos que estavam no **staging area** estão agora **unmodified** (não modificados).
 
-Cada commit deve conter uma breve explicação das alterações que foram feitas. Essa explicação é chamada de **commit message**. No comando, é o `-m` que indica que o próximo argumento é mensagem (deve estar entre aspas `"mensagem"`).
+Cada commit deve conter uma breve explicação das alterações que foram feitas. Essa explicação é chamada de **commit message**. No comando, é o `-m` que indica que o próximo argumento é mensagem (deve estar entre aspas: `"mensagem"`).
 ```sh
 # exemplo:
 # git add lista_lincada.c             
@@ -81,16 +82,44 @@ Adiciona o endereço de um repositório remoto que não foi adicionado. Quando e
 git remote add origin https://github.com/yudi-azvd/tutorial-git-github-basico.git
 ```
 
+Geralmente esse comando é utilizado quando o repositório local está sendo criado do zero, ou seja, não foi realizado o comando `git clone <url>`, que clona o repositório remoto do endereço `<url>` na máquina local. Nesse repositório clonado, o endereço do repositório remoto já está definido.
+
 
 ### `git remote set-url`
+Define um repositório remoto que _já foi adicionado_. Por exemplo, se o endereço `origin` já está definido no repositório local,é possível alterar seu valor com
+
+```sh
+git remote set-url origin uma-string-qualquer # deve ser um endereço válido!
+```
 
 
 ## `git push`
-- Explicar que `origin` é o nome de uma variável, um alias pra URL
 - `git push origin master`
-- `git push -u`
+Comando que _empurra_ os commits feitos no repositório local para o repositório remoto (para ver o endereço do repositório remoto: `git remote -v`). **Atenção**: no começo é fácil pensar que **push** significa puxar, mas isso está errado. Puxar é outro comando.
+
+**Atenção:** o repositório remoto (no Github, Bitbucket ou Gitlab) já deve existir para o comando funcionar.
+
+A anatomia do comando é `git push <alias> <branch>`, em que `<alias>` é o endereço do repositório remoto e `<branch>` é **branch** (ramificação) para qual as alterações serão empurradas. Para iniciantes no mundo do Git, essa branch geralmente é a **master**, ou a ramificação principal.
+
+```sh
+git push origin master
+```
+
+Esse comando pode ser utilizado muitas vezes durante o desenvolvimento. Digitar essas quatro palavras pode ser ligeiramente cansativo. Para evitar isso, basta executar uma vez:
+
+```sh
+git push -u origin master
+```
+
+E, de agora em diante, é possível executar apenas:
+
+```sh
+git push
+```
+
 
 ## `git pull`
+Puxa as alterações do repositório remoto para o repositório local.
 
 
 ## `git log`
