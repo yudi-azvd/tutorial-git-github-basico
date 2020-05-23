@@ -97,7 +97,9 @@ git remote set-url origin uma-string-qualquer # deve ser um endereço válido!
 - `git push origin master`
 Comando que _empurra_ os commits feitos no repositório local para o repositório remoto (para ver o endereço do repositório remoto: `git remote -v`). **Atenção**: no começo é fácil pensar que **push** significa puxar, mas isso está errado. Puxar é outro comando.
 
-**Atenção:** o repositório remoto (no Github, Bitbucket ou Gitlab) já deve existir para o comando funcionar.
+**Atenção:** o repositório remoto (no Github, Bitbucket ou Gitlab) já deve existir para o comando funcionar. O comando não cria o repositório automaticamente.
+
+Nesse momento, pode ser pedido a você para usar o seu username e senha do Github. Preencha os dois.
 
 A anatomia do comando é `git push <alias> <branch>`, em que `<alias>` é o endereço do repositório remoto e `<branch>` é **branch** (ramificação) para qual as alterações serão empurradas. Para iniciantes no mundo do Git, essa branch geralmente é a **master**, ou a ramificação principal.
 
