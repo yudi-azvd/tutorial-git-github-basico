@@ -140,6 +140,8 @@ git log
 
 <img src="../.github/parte-2/git-log.png" width="600">
 
+Se houver muitos commits, o Git vai listar apenas os últimos de modo interativo. Você pode apertar <kbd>Enter</kbd> quantas vezes for necessário para ver mais commits ou apertar a tecla <kbd>Q</kbd> para voltar ao modo normal da linha de comando.
+
 
 É possível ver o histórico de commits de um jeito mais bonitinho. É mais interessante ainda quando se está trabalhando com várias branches.
 
