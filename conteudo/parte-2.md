@@ -128,6 +128,7 @@ Puxa as alterações do repositório remoto para o repositório local.
 git pull origin master
 ```
 
+Para que o comando seja executado com sucesso é necessário que a branch atual esteja "limpa", com nada a "commitar". É possível checar se o repositório está nesse estado com `git status`.
 
 
 ## `git log`
