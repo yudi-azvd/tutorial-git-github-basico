@@ -132,8 +132,23 @@ Para que o comando seja executado com sucesso é necessário que a branch atual 
 
 
 ## `git log`
-- `git log`
-- `git log --oneline --graph`
+Mostra uma lista dos últimos commits com data, messagem do commit, autor e hash do commit. Essa hash é identificador do commit. 
+
+```sh
+git log
+```
+
+<img src="../.github/parte-2/git-log.png" width="600">
+
+
+É possível ver o histórico de commits de um jeito mais bonitinho. É mais interessante ainda quando se está trabalhando com várias branches.
+
+```sh
+git log --graph --online
+```
+
+<img src="../.github/parte-2/git-log-pretty.gif" width="600">
+
 
 ## `git branch`
 - `git branch <nome-da-branch>`
@@ -142,6 +157,7 @@ Para que o comando seja executado com sucesso é necessário que a branch atual 
 ## `git checkout`
 - `git checkout <nome-da-branch>`
 - `git checkout -b <nome-da-branch>`
+<!-- É com ela que é possível "voltar no tempo" na história do repositório.  -->
 
 
 ---
