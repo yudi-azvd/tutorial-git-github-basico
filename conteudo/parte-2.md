@@ -161,26 +161,40 @@ git log --graph --online
 
 
 ## `git branch`
-Lista as **branches** (ramificações) no repositório local indicando a **working branch** (ramificação "atual de trabalho").
-
-Para criar uma branch basta executar:
+Lista as **branches** (ramificações) no repositório local indicando a **working branch** (ramificação "atual de trabalho"). Para criar uma branch basta executar:
 
 ```sh
-git branch nome-da-sua-branch
+git branch <nome-da-sua-branch>
 ```
 
-A princípio, não existe regra para nomes de branches, mas é _muito recomendado_ pesquisar na internet por alguma convenção ainda mais quando se está trabalhando com um time.
+A princípio, não existe regra para nomes de branches, mas é _muito recomendado_ pesquisar na internet por alguma convenção ainda mais quando se está trabalhando em um time.
 
 É comum também (mas não obrigatório) exlcuir uma branch depois de terminado o desenvolvimento nela. Para isso, use a flag `-d`:
 
 ```sh
-git branch -d nome-da-sua-branch
+git branch -d <nome-da-sua-branch>
 ```
 
 ## `git checkout`
-- `git checkout <nome-da-branch>`
-- `git checkout -b <nome-da-branch>`
-<!-- É com ela que é possível "voltar no tempo" na história do repositório.  -->
+Esse comando serve para mudar a working branch, ou seja, ir para outra branch que já foi criada.
+
+```sh
+git checkout <nome-da-sua-branch>
+```
+
+Você pode também criar e mudar de branch no mesmo comando com a flag `-b`
+
+```sh
+git checkout -b <nome-da-sua-branch>
+```
+
+Lembre que você pode checar em qual branch o respositório está com o comando `git branch`. A working branch vai estar marcada com `*`.
+
+Com esse comando também é possível "voltar no tempo" na história do repositório, ou seja, voltar para qualquer commit. Basta saber a hash do commit. Lembre que você pode obter essa informação com `git log`.
+
+```sh
+git checkout <hash-do-commit>
+```
 
 
 ---
