@@ -39,6 +39,7 @@ Se um arquivo não está sendo rastreado, as alterações que ele sofre _não_ e
 Adiciona arquivos e pastas no rastreio do Git. Os arquivos que passam por esse comando têm suas alterações "escutadas" pelo Git.
 
 `git add <nome-do-arquivo>` para adicionar as alterações no **staging area**.
+
 ```sh
 # exemplo:
 git add programa1.c             
@@ -48,7 +49,14 @@ git add index.html programa2.c  # pode ser executado em vários comandos
 Se você deseja adicionar todas as alterações no próximo commit:
 `git add -A`.
 
-Note que o que está sendo adicionado não é apenas o arquivo, mas as aleterações feitas nele. Assim, o comando `git add` pode ser executado sobre o mesmo arquivo várias vezes porque o arquivo pode sofrer várias alterações ao longo do tempo.
+Note que o que está sendo adicionado não é apenas o arquivo, mas as alterações feitas nele. Assim, o comando `git add` pode ser executado sobre o mesmo arquivo várias vezes porque o arquivo pode sofrer várias alterações ao longo do tempo.
+
+Se você deseja **unstage** (tirar do stage) um arquivo basta executar:
+
+```sh
+git reset HEAD <nome-do-arquivo>
+```
+
 
 ## `git commit -m`
 Cria um novo ponto na história do repositório com as alterações que estavam no **staging area**. Os arquivos que estavam no **staging area** estão agora **unmodified** (não modificados).
