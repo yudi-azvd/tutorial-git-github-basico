@@ -161,8 +161,21 @@ git log --graph --online
 
 
 ## `git branch`
-- `git branch <nome-da-branch>`
-- `git branch -d <nome-da-branch>`
+Lista as **branches** (ramificações) no repositório local indicando a **working branch** (ramificação "atual de trabalho").
+
+Para criar uma branch basta executar:
+
+```sh
+git branch nome-da-sua-branch
+```
+
+A princípio, não existe regra para nomes de branches, mas é _muito recomendado_ pesquisar na internet por alguma convenção ainda mais quando se está trabalhando com um time.
+
+É comum também (mas não obrigatório) exlcuir uma branch depois de terminado o desenvolvimento nela. Para isso, use a flag `-d`:
+
+```sh
+git branch -d nome-da-sua-branch
+```
 
 ## `git checkout`
 - `git checkout <nome-da-branch>`
