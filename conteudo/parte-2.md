@@ -188,9 +188,9 @@ Você pode também criar e mudar de branch no mesmo comando com a flag `-b`
 git checkout -b <nome-da-sua-branch>
 ```
 
-Lembre que você pode checar em qual branch o respositório está com o comando `git branch`. A working branch vai estar marcada com `*`.
+Lembre que você pode checar em qual branch o respositório está com o comando `git branch`. A working branch vai estar marcada com `*` e, possivelmente, com uma cor diferente.
 
-Com esse comando também é possível "voltar no tempo" na história do repositório, ou seja, voltar para qualquer commit. Basta saber a hash do commit. Lembre que você pode obter essa informação com `git log`.
+Com esse comando também é possível "voltar no tempo" na história do repositório, ou seja, voltar para qualquer commit. Basta saber a hash do commit. Lembre que você pode obter essa informação com `git log --oneline`.
 
 ```sh
 git checkout <hash-do-commit>
