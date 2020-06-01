@@ -196,6 +196,7 @@ Com esse comando também é possível "voltar no tempo" na história do reposit�
 git checkout <hash-do-commit>
 ```
 
+Você pode voltar para o "presente" com `git checkout master`.
 
 ---
 [Parte anterior](/conteudo/parte-1.md) | [Referências](/conteudo/referencias.md)
