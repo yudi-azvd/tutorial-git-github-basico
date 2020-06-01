@@ -198,5 +198,5 @@ git checkout <hash-do-commit>
 
 
 ---
-[Parte anterior](/conteudo/parte-1.md)
+[Parte anterior](/conteudo/parte-1.md) | [Referências](/conteudo/referencias.md)
 <!-- | [Próxima parte](/conteudo/parte-3.md) -->
