@@ -12,6 +12,9 @@ Ambiente para discussão das mudanças que _você_ fez no código.
 - Detectar bugs
 
 
+[Atividade interativa sobre PRs no GitHub Lab](https://lab.github.com/githubtraining/reviewing-pull-requests) para praticar.
+
+
 ### Referências
 * [About pull requests, GitHub](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
