@@ -16,7 +16,7 @@ Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o con
 
 Parte 3 - Upload para o Github <!-- (conteudo/parte-1.md) -->
 
-[Parte 4 - Pull request](conteudo/parte-4.md)
+[Parte 4 - Pull request](conteudo/parte-4-pull-request.md)
 
 [Referências](/conteudo/referencias.md)
 
