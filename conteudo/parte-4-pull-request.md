@@ -22,6 +22,6 @@ Ambiente para discussão das mudanças que _você_ fez no código.
 * [GitHub Pull Request in 100 Seconds - Git a FREE sticker](https://www.youtube.com/watch?v=8lGpZkjnkt4)
 
 Mais links interessantes
-[aqui](referencias/#outras-referências)
+[aqui](referencias#outras-referências)
 e 
-[aqui](referencias/#Links-úteis).
+[aqui](referencias#links-úteis).
