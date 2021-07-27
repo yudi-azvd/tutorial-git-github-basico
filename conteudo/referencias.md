@@ -23,4 +23,6 @@ Os tópicos são links, então você pode clicar neles.
 
 * [Mantendo dados seguros, removendo dados sensíveis do repositório (BFG)](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 
+* [Automatizando resolução de issues](https://www.youtube.com/watch?v=YVFa5VljCDY)
+
 
