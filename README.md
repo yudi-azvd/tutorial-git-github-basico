@@ -10,29 +10,14 @@
 Treinamento sobre comandos básicos de Git. Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/parte-1.md).
 
 ## Índice
-1. Git
-    1. O que é e breve história
-    1. Download e instalação do Git
-    <!-- 1. Princípios básicos de funcionamento do Git -->
-1. Github
-    1. O que é
-    1. Criando uma conta
-1. Comandos Git
-    - `git init`
-    - `git status`
-    - `git add`
-    - `git commit`
-    - `git push`
-    - `git pull`
-    - `git remote`
-    - `git log`
-    - `git branch`
-1. Upload para o Github
-    - Criar um repositório remoto
-    - Empurrar mudanças para o repositório remoto
-1. Arquivo `README.md`
-1. Arquivo `.gitignore`
-1. Exemplificar colaboração de time
-1. [Referências](/conteudo/referencias.md)
+[Parte 1 - O que é, pra que serve, como baixar](conteudo/parte-1.md)
+
+[Parte 2 - Comandos básicos (commit, log, add, push, pull, checkout, branch)](conteudo/parte-2.md)
+
+Parte 3 - Upload para o Github <!-- (conteudo/parte-1.md) -->
+
+[Parte 4 - Pull request](conteudo/parte-4.md)
+
+[Referências](/conteudo/referencias.md)
 
 Você pode ir diretamente para o conteúdo clicando [aqui](/conteudo/parte-1.md).

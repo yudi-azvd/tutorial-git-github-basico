@@ -11,7 +11,16 @@ Os tópicos são links, então você pode clicar neles.
 
 * [Tech Talk do próprio Linus Torvalds sobre Git na Google](https://www.youtube.com/watch?v=4XpnKHJAok8), explicando as vantagens de usar Git em relação a outras alternativas;
 
+
 ## Outras Referências
 * [A simple effective git workflow](https://zachgoll.github.io/blog/2019/git-crash-course/#A-Simple-Effective-Git-Workflow)
 
 * [Data model, comandos básicos, links para outros recursos](https://missing.csail.mit.edu/2020/version-control/)
+
+
+## Links úteis
+* [Oh shit git](https://ohshitgit.com/) (como desafazer algumas cagadas feitas com git)
+
+* [Mantendo dados seguros, removendo dados sensíveis do repositório (BFG)](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+
+
